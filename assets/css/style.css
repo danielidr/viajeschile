@@ -14,3 +14,15 @@ body {
 h2 {
     font-size: 1.5rem;
 }
+
+.destacados {
+    margin: 8rem 0;
+}
+
+.card {
+    height: 26rem;
+}
+
+.card img {
+    height: 10rem;
+}
