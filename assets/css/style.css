@@ -6,3 +6,11 @@ body {
 .carousel-item img {
     height: 40rem;
 }
+
+.linea {
+    border-top: solid;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
