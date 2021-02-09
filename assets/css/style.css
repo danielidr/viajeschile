@@ -2,3 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
 }
+
+.carousel-item img {
+    height: 40rem;
+}
