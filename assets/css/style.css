@@ -1,38 +1,35 @@
-    body {
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
-}
-
-.carousel-item img {
-    height: 40rem;
-}
-
-.linea {
-    border-top: solid;
-}
-
-h2 {
-    font-size: 1.5rem;
-}
-
-.margen {
-    margin: 8rem 0;
-}
-
-.card {
-    height: 26rem;
-}
-
-.card img {
-    height: 10rem;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-@media screen and (max-width: 600px) {
-    .carousel-item img,
-    .card {
-        height: auto;
-    }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: black;
+        }
+        
+        .carousel-item img {
+            height: 42rem;
+        }
+        
+        .linea {
+            border-top: solid;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+        }
+        
+        .card {
+            height: 26rem;
+        }
+        
+        .card img {
+            height: 10rem;
+        }
+        
+        h1 {
+            font-size: 2rem;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .carousel-item img,
+            .card {
+                height: auto;
+            }
+        }
