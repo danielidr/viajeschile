@@ -1,4 +1,4 @@
-body {
+    body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
 }
@@ -15,7 +15,7 @@ h2 {
     font-size: 1.5rem;
 }
 
-.destacados {
+.margen {
     margin: 8rem 0;
 }
 
@@ -30,3 +30,9 @@ h2 {
 h1 {
     font-size: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .carousel-item img,
+    .card {
+        height: auto;
+    }

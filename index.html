@@ -23,11 +23,11 @@
 
 <body>
 
-    <header>
+    <header id="inicio">
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
             <div class="container px-0">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#inicio">
                     <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="viajes"> Viajes Chile
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,16 +36,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes Somos</a>
+                            <a class="nav-link" href="#nosotros">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                            <a class="nav-link" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -79,149 +79,137 @@
         <!--Cierra Carousel-->
     </header>
 
-
-    <section>
-        <!--Sección Quienes Somos-->
-        <div class="container-fluid text-white my-5 px-5">
-            <h2 class="text-center">¿Quiénes somos?</h2>
-            <div class="linea text-info mt-4">
+    <!--Sección Quienes Somos-->
+    <section id="nosotros" class="container-fluid text-white my-5 px-5">
+        <h2 class="text-center">¿Quiénes somos?</h2>
+        <div class="linea text-info mt-4">
+        </div>
+        <div class="row my-5 px-4">
+            <div class="col-12 col-md-4">
+                <i class="fas fa-plane fa-2x bg-info w-100 text-center py-1" data-container="body" data-toggle="popover" data-placement="top" data-content="Vuelos"></i>
+                <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid animi omnis ullam distinctio? Harum laborum quod alias magnam dolores officia odio veniam nemo temporibus provident dolore eos commodi, pariatur asperiores? Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Quas atque magni optio eius cum culpa tempora est? Laudantium illo ab in dolorum cum repellendus iste sint? Dolor aspernatur quas sint? Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Obcaecati accusantium assumenda similique dolore! Neque consequuntur ad cum veniam quas corrupti deserunt a. Eveniet maxime quis non temporibus aliquid ex minima!</p>
             </div>
-            <div class="row my-5 px-4">
-                <div class="col-12 col-md-4">
-                    <i class="fas fa-plane fa-2x bg-info w-100 text-center py-1"></i>
-                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid animi omnis ullam distinctio? Harum laborum quod alias magnam dolores officia odio veniam nemo temporibus provident dolore eos commodi, pariatur asperiores? Lorem, ipsum
-                        dolor sit amet consectetur adipisicing elit. Quas atque magni optio eius cum culpa tempora est? Laudantium illo ab in dolorum cum repellendus iste sint? Dolor aspernatur quas sint? Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Obcaecati accusantium assumenda similique dolore! Neque consequuntur ad cum veniam quas corrupti deserunt a. Eveniet maxime quis non temporibus aliquid ex minima!</p>
-                </div>
-                <div class="col-12 col-md-4">
-                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid animi omnis ullam distinctio? Harum laborum quod alias magnam dolores officia odio veniam nemo temporibus provident dolore eos commodi, pariatur asperiores? Lorem, ipsum
-                        dolor sit amet consectetur adipisicing elit. Quas atque magni optio eius cum culpa tempora est? Laudantium illo ab in dolorum cum repellendus iste sint? Dolor aspernatur quas sint? Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Obcaecati accusantium assumenda similique dolore! Neque consequuntur ad cum veniam quas corrupti deserunt a. Eveniet maxime quis non temporibus aliquid ex minima!</p>
-                    <i class="fas fa-mountain fa-2x bg-info w-100 text-center py-1"></i>
-                </div>
-                <div class="col-12 col-md-4">
-                    <i class="fas fa-route fa-2x bg-info w-100 text-center py-1"></i>
-                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid animi omnis ullam distinctio? Harum laborum quod alias magnam dolores officia odio veniam nemo temporibus provident dolore eos commodi, pariatur asperiores? Lorem, ipsum
-                        dolor sit amet consectetur adipisicing elit. Quas atque magni optio eius cum culpa tempora est? Laudantium illo ab in dolorum cum repellendus iste sint? Dolor aspernatur quas sint? Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Obcaecati accusantium assumenda similique dolore! Neque consequuntur ad cum veniam quas corrupti deserunt a. Eveniet maxime quis non temporibus aliquid ex minima!</p>
-                </div>
+            <div class="col-12 col-md-4">
+                <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid animi omnis ullam distinctio? Harum laborum quod alias magnam dolores officia odio veniam nemo temporibus provident dolore eos commodi, pariatur asperiores? Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Quas atque magni optio eius cum culpa tempora est? Laudantium illo ab in dolorum cum repellendus iste sint? Dolor aspernatur quas sint? Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Obcaecati accusantium assumenda similique dolore! Neque consequuntur ad cum veniam quas corrupti deserunt a. Eveniet maxime quis non temporibus aliquid ex minima!</p>
+                <i class="fas fa-mountain fa-2x bg-info w-100 text-center py-1" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Trekking"></i>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fas fa-route fa-2x bg-info w-100 text-center py-1" data-container="body" data-toggle="popover" data-placement="top" data-content="Excursiones"></i>
+                <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid animi omnis ullam distinctio? Harum laborum quod alias magnam dolores officia odio veniam nemo temporibus provident dolore eos commodi, pariatur asperiores? Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Quas atque magni optio eius cum culpa tempora est? Laudantium illo ab in dolorum cum repellendus iste sint? Dolor aspernatur quas sint? Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Obcaecati accusantium assumenda similique dolore! Neque consequuntur ad cum veniam quas corrupti deserunt a. Eveniet maxime quis non temporibus aliquid ex minima!</p>
             </div>
         </div>
-        <!--Cierra sección quienes somos-->
 
     </section>
 
-    <section>
-        <!--Sección Destacados-->
-        <div class="container-fluid text-white destacados px-5">
-            <h2 class="text-center">Destacados</h2>
-            <div class="linea text-info mt-4">
-            </div>
-            <div class="row px-5">
-                <div class="col-12 col-md-3 py-4">
-                    <div class="card">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="playa">
-                        <div class="card-body bg-info pr-4">
-                            <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti dolor, nihil libero hic voluptate ratione optio cum rerum consectetur. </p>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Cierre card1-->
-
-                <div class="col-12 col-md-3 py-4">
-                    <div class="card">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="montaña">
-                        <div class="card-body bg-info pr-4">
-                            <h5 class="card-title">Consequatur non, quos consequuntur</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti dolor, nihil libero hic voluptate ratione optio cum rerum consectetur. </p>
-                        </div>
-
-                    </div>
-                </div>
-                <!--cierre de card2-->
-
-                <div class="col-12 col-md-3 py-4">
-                    <div class="card">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="arena">
-                        <div class="card-body bg-info pr-4">
-                            <h5 class="card-title">Minima recusandae voluptate illo aut consectetur</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti dolor, nihil libero hic voluptate ratione optio cum rerum consectetur. </p>
-                        </div>
-
-                    </div>
-                </div>
-                <!--cierre card3-->
-
-                <div class="col-12 col-md-3 py-4">
-                    <div class="card">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="bosque">
-                        <div class="card-body bg-info pr-4">
-                            <h5 class="card-title">LIllo, aspernatur non fuga a libero
-                            </h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti dolor, nihil libero hic voluptate ratione optio cum rerum consectetur. </p>
-                        </div>
-                    </div>
-                </div>
-                <!--cierre card4-->
-            </div>
-            <!--cierra row-->
+    <!--Sección Destacados-->
+    <section id="destacados" class="container-fluid text-white margen px-5">
+        <h2 class="text-center">Destacados</h2>
+        <div class="linea text-info mt-4">
         </div>
-        <!--cierra container-->
+        <div class="row px-5">
+            <div class="col-12 col-md-3 py-4">
+                <div class="card">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="playa" data-toggle="tooltip" data-placement="top" title="Lago">
+                    <div class="card-body bg-info pr-4">
+                        <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti dolor, nihil libero hic voluptate ratione optio cum rerum consectetur. </p>
+                    </div>
+
+                </div>
+            </div>
+            <!--Cierre card1-->
+
+            <div class="col-12 col-md-3 py-4">
+                <div class="card">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="montaña" data-toggle="tooltip" data-placement="top" title="Montaña">
+                    <div class="card-body bg-info pr-4">
+                        <h5 class="card-title">Consequatur non, quos consequuntur</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti dolor, nihil libero hic voluptate ratione optio cum rerum consectetur. </p>
+                    </div>
+
+                </div>
+            </div>
+            <!--cierre de card2-->
+
+            <div class="col-12 col-md-3 py-4">
+                <div class="card">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="arena" data-toggle="tooltip" data-placement="top" title="Desierto">
+                    <div class="card-body bg-info pr-4">
+                        <h5 class="card-title">Minima recusandae voluptate illo aut consectetur</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti dolor, nihil libero hic voluptate ratione optio cum rerum consectetur. </p>
+                    </div>
+
+                </div>
+            </div>
+            <!--cierre card3-->
+
+            <div class="col-12 col-md-3 py-4">
+                <div class="card">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="bosque" data-toggle="tooltip" data-placement="top" title="Bosque">
+                    <div class="card-body bg-info pr-4">
+                        <h5 class="card-title">LIllo, aspernatur non fuga a libero
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti dolor, nihil libero hic voluptate ratione optio cum rerum consectetur. </p>
+                    </div>
+                </div>
+            </div>
+            <!--cierre card4-->
+        </div>
+        <!--cierra row-->
     </section>
 
-    <section>
-        <!--Contacto-->
-        <div class="container-fluid text-white destacados px-5 mb-5">
-            <h2 class="text-center">Contacto</h2>
-            <div class="linea text-info mt-4">
-            </div>
-            <!--Formulario-->
-            <div class="typeform-widget pt-4 px-5" data-url="https://form.typeform.com/to/SwlA7Cy0?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
-            <script>
-                (function() {
-                    var qs, js, q, s, d = document,
-                        gi = d.getElementById,
-                        ce = d.createElement,
-                        gt = d.getElementsByTagName,
-                        id = "typef_orm",
-                        b = "https://embed.typeform.com/";
-                    if (!gi.call(d, id)) {
-                        js = ce.call(d, "script");
-                        js.id = id;
-                        js.src = b + "embed.js";
-                        q = gt.call(d, "script")[0];
-                        q.parentNode.insertBefore(js, q)
-                    }
-                })()
-            </script>
+    <!--Contacto-->
+    <section id="contacto" class="container-fluid text-white margen px-5 mb-5">
+        <h2 class="text-center">Contacto</h2>
+        <div class="linea text-info mt-4">
         </div>
+        <!--Formulario-->
+        <div class="typeform-widget pt-4 px-5" data-url="https://form.typeform.com/to/SwlA7Cy0?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
+        <script>
+            (function() {
+                var qs, js, q, s, d = document,
+                    gi = d.getElementById,
+                    ce = d.createElement,
+                    gt = d.getElementsByTagName,
+                    id = "typef_orm",
+                    b = "https://embed.typeform.com/";
+                if (!gi.call(d, id)) {
+                    js = ce.call(d, "script");
+                    js.id = id;
+                    js.src = b + "embed.js";
+                    q = gt.call(d, "script")[0];
+                    q.parentNode.insertBefore(js, q)
+                }
+            })()
+        </script>
     </section>
     <!--Cierre de contacto-->
 
-    <footer>
-        <div class="container-fluid bg-info text-white">
-            <div class="row text-center">
-                <div class="col-6">
-                    <h1>VIAJES CHILE</h1>
-                </div>
-                <div class="col-6">
-                    <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-2x text-white m-2"></i></a>
-                    <a href="https://www.linkedin.com/home/?originalSubdomain=cl" target="_blank"><i class="fab fa-linkedin fa-2x text-white m-2"></i></a>
-                    <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square fa-2x text-white m-2"></i></a>
-                    <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x text-white m-2"></i></a>
-                    </col-6>
-                </div>
-                <!--cierra iconos-->
+    <footer class="container-fluid bg-info text-white">
+        <div class="row text-center">
+            <div class="col-12 col-md-6">
+                <h1>VIAJES CHILE</h1>
             </div>
-            <!--cierra row-->
+            <div class="col-12 col-md-6">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-2x text-white m-2" data-toggle="tooltip" data-placement="top" title="Github"></i></a>
+                <a href="https://www.linkedin.com/home/?originalSubdomain=cl" target="_blank"><i class="fab fa-linkedin fa-2x text-white m-2" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square fa-2x text-white m-2" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x text-white m-2" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
+                </col-6>
+            </div>
+            <!--cierra iconos-->
         </div>
-        <!--cierra container-->
+        <!--cierra row-->
     </footer>
 
 
-    <!---Jquery-->
+    <!---Jquery 3.5.1-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
 
     <!--Bootstrap 4.6-->
